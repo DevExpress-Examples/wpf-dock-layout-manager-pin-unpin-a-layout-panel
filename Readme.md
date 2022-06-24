@@ -4,7 +4,7 @@
 <!-- default badges end -->
 # WPF Dock Layout Manager - Pin/Unpin a LayoutPanel
 
-You can add or remove a layout panel to/from [AutoHideGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.AutoHideGroup). In this case, the [AutoHideGroup.Items](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.AutoHideGroup.Items) collection is changed. You can handle the `AutoHideGroup.Items.CollectionChanged` to track these changes. Use the readonly [BaseLayoutItem.IsAutoHidden](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.BaseLayoutItem.IsAutoHidden) property to check whether the panel is placed in [AutoHideGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.AutoHideGroup).
+You can add or remove a layout panel to or from [AutoHideGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.AutoHideGroup). In this case, the [AutoHideGroup.Items](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.AutoHideGroup.Items) collection is changed. You can handle the `AutoHideGroup.Items.CollectionChanged` event to track these changes. Use the read-only [BaseLayoutItem.IsAutoHidden](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.BaseLayoutItem.IsAutoHidden) property to check whether the panel is placed in [AutoHideGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.AutoHideGroup).
 
 <img src="https://user-images.githubusercontent.com/12169834/175360696-a08a9c82-7013-465f-8a0b-6a67721b2458.png" width=705px/>
 
