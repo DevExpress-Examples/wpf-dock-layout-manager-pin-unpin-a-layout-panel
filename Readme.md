@@ -8,7 +8,7 @@ You can add or remove a layout panel to or from [AutoHideGroup](https://docs.dev
 
 <img src="https://user-images.githubusercontent.com/12169834/175360696-a08a9c82-7013-465f-8a0b-6a67721b2458.png" width=705px/>
 
-Call [DockManager.DockController.Dock](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockControllerBase.Dock.overloads) method to unpin a panel and dock it to the specified group.
+Call the [DockManager.DockController.Dock](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockControllerBase.Dock.overloads) method to unpin a panel and dock it to the specified group.
 
 To pin/add a panel, you should call the [DockController.Dock](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DockControllerBase.Dock.overloads) method to dock it to an existing [AutoHideGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.AutoHideGroup).
 
